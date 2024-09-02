@@ -4,10 +4,6 @@
 
 Este repositório contém uma calculadora gráfica (GUI) simples implementada em Python usando a biblioteca `tkinter`. A calculadora suporta operações matemáticas básicas, como adição, subtração, multiplicação e divisão.
 
-## Requisitos
-
-- Python 3.x
-
 ## Instalação
 
 1. **Clone o repositório:**
