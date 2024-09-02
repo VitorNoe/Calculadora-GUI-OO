@@ -4,13 +4,9 @@ class Calculadora:
     def __init__(self, root):
         self.root = root
         self.root.title("Calculadora GUI")
-        
         self.display = tk.Entry(root, width=25, font=("Arial", 16), borderwidth=2, relief="solid")
-        
         self.display.grid(row=0, column=0, columnspan=4)
-        
         self.current_expression = ""
- 
         self.create_buttons()
         
     def create_buttons(self):
