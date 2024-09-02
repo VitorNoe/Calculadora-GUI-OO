@@ -14,7 +14,7 @@ class Calculadora:
             ('7', 1, 0), ('8', 1, 1), ('9', 1, 2), ('/', 1, 3),
             ('4', 2, 0), ('5', 2, 1), ('6', 2, 2), ('*', 2, 3),
             ('1', 3, 0), ('2', 3, 1), ('3', 3, 2), ('-', 3, 3),
-            ('0', 4, 0), ('+', 4, 1), ('C', 4, 2), ('=', 4, 3)
+            ('C', 4, 0), ('0', 4, 1), ('=', 4, 2), ('+', 4, 3)
         ]
         
         for (text, row, col) in buttons:
@@ -24,7 +24,7 @@ class Calculadora:
         
         clear_button = tk.Button(self.root, text='C', width=5, height=2, font=("Arial", 16),
                                  command=self.clear_display)
-        clear_button.grid(row=4, column=2, padx=5, pady=5)
+        clear_button.grid(row=4, column=0, padx=5, pady=5)
 
     def on_button_click(self, char):
         if char == '=':
