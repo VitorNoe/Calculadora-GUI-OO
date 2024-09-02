@@ -56,5 +56,5 @@ class Calculadora:
 
 if __name__ == "__main__":
     root = tk.Tk()
-    Calculadora = Calculadora(root)
+    calculator = Calculadora(root)
     root.mainloop()
