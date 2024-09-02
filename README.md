@@ -5,7 +5,8 @@
 Calculadora gráfica (GUI) simples produzido em Python usando a biblioteca `tkinter`. A calculadora possui operações matemáticas básicas, como adição, subtração, multiplicação e divisão.
 
 ## Instalação
-
+- E recomendado que use uma plataforma de edição de código `Visual Studio Code`, e também certifique que tenha baixado todas as extensões do `python`.
+  
 1. **Clone o repositório:**
 
    ```bash
@@ -22,7 +23,7 @@ Calculadora gráfica (GUI) simples produzido em Python usando a biblioteca `tkin
 Para executar a calculadora, execute o seguinte comando no diretório do projeto:
 
 ```bash
-python calculadora.py
+python NomeDoArquivo.py
 ```
 
 ## Funcionalidades
